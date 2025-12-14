@@ -37,4 +37,4 @@ An MVP demonstrating Beam Health’s intake-first workflow: a unified next-day i
 
 ## Preview
 
-![preview](screenshots/beam-health-preview.png)
+![Beam Intake Workflow Preview](Screenshots/beam-health-preview.png)
