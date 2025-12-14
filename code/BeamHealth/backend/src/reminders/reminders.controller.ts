@@ -6,7 +6,13 @@ import { SendReminderDto } from './dto/sendReminder.dto';
 export class RemindersController {
    constructor(private readonly remindersService: RemindersService){}
    
-  // POST /reminders/send-one
+    /**
+   * POST /reminders/send-one
+   *
+   * Triggers a reminder for a specific appointment.
+   * The action is context-aware and intended to be used only when outreach is required, reducing staff errors
+   *  and unnecessary patient notifications.
+   */
   @Post('send-one')
   async sendOne(@Body() body: SendReminderDto) {
     await this.remindersService.sendReminderForAppointment(body.appointmentId);
