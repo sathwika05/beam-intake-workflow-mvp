@@ -34,3 +34,7 @@ An MVP demonstrating Beam Health’s intake-first workflow: a unified next-day i
 | Email         | Nodemailer, Mailtrap                       |
 | AI / LLM      | OpenAI API (email templates)               |
 | Scheduling    | Cron Job (daily @ 2 PM)                    |
+
+## Preview
+
+![Beam Intake Workflow Preview](Screenshots/beam-health-preview.png)
