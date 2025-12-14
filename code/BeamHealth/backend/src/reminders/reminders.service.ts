@@ -33,7 +33,7 @@ export class RemindersService {
     }
   }
 
-  @Cron('08 16 * * *')
+  @Cron('00 14 * * *')
   async sendTomorrowAppointmentReminders() {
     console.log("***********************************************Cron triggered***********************************************");
     await this.runTomorrowAppointmentReminders();
