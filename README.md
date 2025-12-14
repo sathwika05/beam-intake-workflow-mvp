@@ -42,4 +42,4 @@ An MVP demonstrating Beam Health’s intake-first workflow: a unified next-day i
 
 ## Live Demo
 
-📺 [Watch the workflow demo](https://drive.google.com/drive/home)
+📺 [Watch the workflow demo](https://drive.google.com/file/d/1p8KRahrXPo6V03j6xKLe58-rk50uh9ww/view?usp=sharing)
